@@ -19,4 +19,4 @@ document:
   repo: https://github.com/pvrbharg/t20-worldcup-2024-championship-knowledge.git
   commit: 7a4dda572f6d3752aad05484e3518977938d900c
   patterns:
-    - t20_worldcup_2024_championship.md
+    - t20_worldcup_2024_championship-knowledge.md
