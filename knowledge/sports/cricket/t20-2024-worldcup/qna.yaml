@@ -5,7 +5,7 @@ domain: sports
 seed_examples:
   - question: Which country team won the T20 World Cup Championship in year 2024?
     answer: |
-      Team India won by 7 runs against South Africa on Saturday June 29, 2024 in the final match. 
+      Team India won by 7 runs against South Africa on Saturday June 29, 2024 in the final match.
   - question: What were the final scores?
     answer: India 176/7 in 20 overs and South Africa 169/8 in 20 overs.
   - question: Which team win the toss?
