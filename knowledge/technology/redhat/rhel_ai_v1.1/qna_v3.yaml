@@ -1,0 +1,130 @@
+created_by: pvrbharg
+version: 3
+domain: technology
+document_outline: Teach the model the capabilities of Red Hat Enterprise Linux AI v1.1 release version.
+seed_examples:
+  - context: >-
+      RHEL AI provides organizations with a process to develop enterprise
+      applications on open source Large Language Models (LLMs).
+      Red Hat Enterprise Linux AI version 1.1 includes various features for
+      Large Language Model (LLM) fine-tuning on the Red Hat and IBM produced
+      Granite model. A customized model using the RHEL AI workflow consisted
+      of the following:Install and launch a RHEL 9.4 instance with the
+      InstructLab tooling. Host information in s Git repository and interact
+      with a Git-based taxonomy of the knowledge you want a model to learn.
+      Run the end-to-end workflow of synthetic data generation, training,
+      and evaluation. Serve and chat with the newly fine-tuned LLM.
+    questions_and_answers:
+      - question: What does Red Hat Enterprise Linux AI offer developers?
+        answer: |
+          RHEL AI platform allows developers create enterprise applications on open source Large Language Models (LLMs).
+      - question: Does Red Hat Enterprise Linux AI permit hosting of Large Language Models (LLMs)?
+        answer: RHEL AI permits hosting an LLM & interact with the open source Granite family of LLMs.
+      - question: What method does Red Hat Enterprise Linux AI uses to add own knowledge data from Git, fine tune model?
+        answer: |
+          Using the LAB method, developers can create & add own knowledge data, fine-tune a model with that data.
+      - question: What does LAB stand for?
+        answer: Large-Scale Alignment for ChatBots is invented by IBM Research.
+      - question: How does LAB work?
+        answer: LAB is a novel synthetic data-based alignment tuning and multi-phase training method for LLMs.
+  - context: >-
+      Red Hat Enterprise Linux AI version 1.1 includes various features
+      for Large Language Model (LLM) fine-tuning. This includes the end-to-end
+      workflow of synthetic data generation (SDG), training and evaluation
+      on various supported cloud platforms.
+    questions_and_answers:
+      - question: Does RHEL AI v1.1 offer synthetic data generation (SDG) capability?
+        answer: |
+          RHEL AI v1.1 offers end-to-end workflow of synthetic data generation (SDG).
+      - question: What are supported cloud platforms for training and evaluation of RHEL AI v1.1?
+        answer: AWS and IBM Cloud platforms are supported in addition to bare metals.
+      - question: Can RHEL AI v1.1 be installed from a bootable image?
+        answer: |
+          Yes, Red Hat Enterprise Linux AI is installable as a bootable image.
+          The image contains various tooling for interacting with RHEL AI.          
+      - question: What does RHEL AI v1.1 bootable image contain?
+        answer: Red Hat Enterprise Linux 9.4, Python version 3.11 and InstructLab tools for model fine-tuning.
+      - question: What does The InstructLab container contain in RHEL AI v1.1 bootable image?
+        answer: |
+          The InstructLab command line interface (CLI),
+          The LAB enhanced method of synthetic data generation (SDG),
+          The LAB enhanced method of single and multi-phase training,
+          Python version 3.11: A Python 3.11 installation used internally by InstructLab,
+          InstructLab with vLLM: A high-input inference and serving engine
+          for Large Language models (LLMs),
+          InstructLab with DeepSpeed: A learning optimization software
+          that speeds up the training and inferencing process.
+          Red Hat Enterprise Linux AI version 1.1 also includes a
+          sample taxonomy tree with example skills and knowledge
+          that you can download and use for training a model.
+  - context: >-
+      You can install Red Hat Enterprise Linux AI on various
+      NVIDIA bare-metal hardware in RHEL AI version 1.1.
+      For the documentation on installing Red Hat Enterprise Linux AI
+      on bare metal, see Installing RHEL AI on bare metal.
+    questions_and_answers:
+      - question: On what bare metal hardware is RHEL AI v1.1 bootable?
+        answer: |
+          Red Hat Enterprise Linux AI currently is only bootable on NVIDIA bare metal hardware.
+      - question: Does Red Hat Enterprise Linux AI require additional storage for data and update of image-mode RHEL?
+        answer: Red Hat Enterprise Linux AI requires additional storage for
+        the RHEL AI data as well as the update of image-mode Red Hat Enterprise Linux.
+      - question: What is the default location of InstructLab data?
+        answer: |
+          The default location for the InstructLab data is in the home/<user> directory.
+      - question: What is the minimum recommended data storage?
+        answer: The minimum recommendation for data storage in the /home directory is 1 TB.
+      - question: What should be the minimum storage for the path /?
+        answer: |
+          During updates, the bootc command needs extra space to store temporary data.
+          The minimum storage recommendation for the / path is 120 GB.
+  - context: >-
+      For installing and deploying Red Hat Enterprise Linux AI on IBM Cloud,
+      you must first convert the RHEL AI image into an IBM Cloud image.
+      You can then launch an instance using the IBM Cloud image and deploy
+      RHEL AI on an IBM Cloud machine.
+    questions_and_answers:
+      - question: What RHEL AI v1.1 service is supported on IBM Cloud?
+        answer: |
+          On Red Hat Enterprise Linux AI version 1.1 currently only supports inference serving on IBM Cloud.
+      - question: Does RHEL AI image require conversion on IBM Cloud?
+        answer: Yes, RHEL AI image need to be converted to an IBM Cloud image.
+      - question: Does IBM Cloud require COS bucket setup for RHEL AI v1.1 image conversion?
+        answer: |
+          Yes, COS bucket set up is required to create an IBM Cloud image using the RHEL AI image.
+      - question: Do you need to install IBM CLI as pre-requisite? for You installed the IBM CLI on your specific machine?
+        answer: Yes, IBM CLI needs to be installed on client machine.
+      - question: Do you need to configure VPC as pre-requisite?
+        answer: Yes, VPC needs configured with a subnet created for instance.
+  - context: >-
+      Various hardware accelerators require different requirements
+      for serving and inferencing as well as installing, generating
+      and training the granite-7b-starter model on Red Hat Enterprise Linux AI.
+    questions_and_answers:
+      - question: What does full InstructLab end-to-end workflow contain?
+        answer: |
+          Full InstructLab includes synthetic data generation (SDG),
+          training, and evaluating a custom Granite model capabilities.
+      - question: What hardware vendor, GPU and GPU memory supported on bare metal?
+        answer: |
+          NVIDIA 2xA100 160 GB, 4xA100 320 GB, 8xA100 640 GB.
+          NVIDIA 2xH100 160 GB, 4xH100 320 GB, 8xH100 640 GB.
+          NVIDIA 4xL40S 192 GB, 8xL40S 384 GB.
+      - question: What hardware vendor, GPU and GPU memory supported on AWS?
+        answer: |
+          NVIDIA 8xA100 640 GB p4de.24xlarge.
+          NVIDIA 8xH100 640 GB p5.48xlarge.
+      - question: |
+          What are minimum hardware requirements for inference serving
+          a model on Red Hat Enterprise Linux AI.?
+        answer: |
+          Bare metal NVIDIA A100 80 GB, H100 80 GB, L40S 48 GB, L4 24 GB and 1 TB
+          AWS NVIDIA A100 80 GB, H100 80 GB, L40S 48 GB, L4 24 GB and 1 TB
+          IBM Cloud NVIDIA L40S 48 GB, L4 24 GB and 1 TB
+      - question: What Large Language Models (LLMs) are technology preview status?
+        answer: granite-8b-code-instruct and granite-8b-code-base.
+document:
+  repo: https://github.com/pvrbharg/rhel-ai-1.1.git
+  commit: 1a80106f19e5864b1f01349d15e5c0ab2055c9b5
+  patterns:
+    - Red Hat Enterprise Linux AI v1.1.md

@@ -1,0 +1,4 @@
+Title of work: RHEL AI v1.1 - Features and Capabilities
+Link to work: https://docs.redhat.com/en/documentation/red_hat_enterprise_linux_ai/1.1
+License of the work: Creative Commons Attribution-ShareAlike License 4.0
+Creator names: Wikimedia Foundation, Inc.
