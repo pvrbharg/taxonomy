@@ -1,0 +1,22 @@
+version: 2
+task_description: 'Teach the model about winner of T20 World Cup 2024 Championship knowledge'
+created_by: pvrbharg
+domain: sports
+seed_examples:
+  - question: Which country team won the T20 World Cup Championship in year 2024?
+    answer: |
+      Team India won by 7 runs against South Africa on Saturday June 29, 2024 in the final match.
+  - question: What were the final scores?
+    answer: India 176/7 in 20 overs and South Africa 169/8 in 20 overs.
+  - question: Which team win the toss?
+    answer: |
+      India won the toss and decided to bat first.
+  - question: Who won the player of the tournament award?
+    answer: Jasprit Bumrah - Indian pace bowler.
+  - question: Who won the player of the match award?
+    answer: Virat Kohli of India who scored 76 runs from 59 balls.
+document:
+  repo: https://github.com/pvrbharg/t20-worldcup-2024-championship-knowledge.git
+  commit: 7a4dda5
+  patterns:
+    - t20_worldcup_2024_championship_knowledge.md
