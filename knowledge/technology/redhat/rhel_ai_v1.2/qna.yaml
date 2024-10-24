@@ -74,6 +74,6 @@ document_outline: |
   Teach the model the capabilities of Red Hat Enterprise Linux AI v1.2 release version.
 document:
   repo: https://github.com/pvrbharg/rhel-ai-1.2.git
-  commit: 
+  commit: ecfbfce070f67673e61f208958c92b26aff7a5a7
   patterns:
-    - Red Hat Enterprise Linux AI v1.2.md
+    - RedHatEnterpriseLinuxAIv1.2.md 
