@@ -3,7 +3,7 @@ domain: technology
 created_by: pvrbharg
 seed_examples:
   - context: |
-      Red Hat Enterprise Linux AI version 1.2 contains a set of capabilities enable by a customized model using the RHEL AI workflow.
+      Red Hat Enterprise Linux AI version 1.2 features a customized model using the RHEL AI workflow.
     questions_and_answers:
       - question: |
           What version of RHEL is used in Red Hat Enterprise Linux AI version 1.2?
@@ -18,17 +18,17 @@ seed_examples:
         answer: |
           A model learns new knowledge using a Git-based taxonomy of the knowledge that gets hosted in a Git repository.
   - context: |
-      Red Hat Enterprise Linux AI version 1.2 includes the following features for Large Language Model (LLM) fine-tuning on the Red Hat and IBM produced Granite model.
+      Red Hat Enterprise Linux AI version 1.2 features LLM fine-tuning on IBM Granite model.
     questions_and_answers:
       - question: |
           What are the additional capabilities of Red Hat Enterprise Linux AI version 1.2 workflow?
         answer: |
-          Run the end-to-end workflow of synthetic data generation (SDG), multi-phase training, and benchmark evaluation.
+          Run end-to-end workflow of synthetic data generation (SDG), multi-phase training, and benchmark evaluation.
       - question: What can you do with the trained LLM?
         answer: |
           Serve and chat with the newly fine-tuned LLM.
   - context: |
-      Red Hat Enterprise Linux AI 1.2 is installable as a bootable image. This image contains various tooling for interacting with RHEL AI. The image includes: Red Hat Enterprise Linux 9.4, Python version 3.11 and InstructLab tools for model fine-tuning. Red Hat Enterprise Linux AI version 1.2 continues installation options for bare metal, AWS and IBM Cloud.
+      Red Hat Enterprise Linux AI 1.2 is installable as a bootable image. Image contains tooling for interactions.
     questions_and_answers:
       - question: Can Red Hat Enterprise Linux AI 1.2 be installed on machines with AMD accelerators?
         answer: |
@@ -54,9 +54,9 @@ seed_examples:
       - question: |
           Can LLMs be downloaded in Red Hat Enterprise Linux AI version 1.2?
         answer: |
-          You can download various Large Language Models (LLMs) provided by Red Hat to RHEL AI 1.2 machine or instance. Download these models from a Red Hat registry after creating and logging in to Red Hat registry account.
+          You can download various LLMs provided by Red Hat to RHEL AI 1.2 instance.
   - context: |
-      Red Hat Enterprise Linux AI version 1.2 allows you to run a vLLM inference server on various LLMs. The vLLM tool is a memory-efficient inference and serving engine library for LLMs that is included in the RHEL AI 1.2 image. To interact with various models on Red Hat Enterprise Linux AI 1.2 you must serve the model, which hosts it on a server, then you can chat with the models.
+      Red Hat Enterprise Linux AI version 1.2 allows you to run a vLLM inference server on various LLMs.
     questions_and_answers:
       - question: |
           Why do you need to serve the fine-tuned and trained model in Red Hat Enterprise Linux AI 1.2?
@@ -76,4 +76,4 @@ document:
   repo: https://github.com/pvrbharg/rhel-ai-1.2.git
   commit: ecfbfce070f67673e61f208958c92b26aff7a5a7
   patterns:
-    - RedHatEnterpriseLinuxAIv1.2.md 
+    - RedHatEnterpriseLinuxAIv1.2.md
