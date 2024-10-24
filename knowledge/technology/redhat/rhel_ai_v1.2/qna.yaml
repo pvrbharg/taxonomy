@@ -27,6 +27,9 @@ seed_examples:
       - question: What can you do with the trained LLM?
         answer: |
           Serve and chat with the newly fine-tuned LLM.
+      - question: What LLM models can you download in Red Hat Enterprise Linux AI v1.2?
+        answer: |
+          You can download the additional optional models created by Red Hat and IBM.
   - context: |
       Red Hat Enterprise Linux AI 1.2 is installable as a bootable image. Image contains tooling for interactions.
     questions_and_answers:
