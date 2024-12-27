@@ -1,0 +1,84 @@
+version: 3
+domain: technology
+created_by: pvrbharg
+seed_examples:
+  - context: |
+      Today IT is the business. Cloud transformation is a competitive advantage that is also a business strategy. Hybrid cloud plays a significant role in the emerging generative AI and its enterprise transformation. To take advantage of emerging technology opportunities, enterprises should undertake Great Tech Reset and adopt hybrid-by-design instead of hybrid by default.
+    questions_and_answers:
+      - question: |
+          What emerging technology breakthrough signaled the end of operations separating IT from business?
+        answer: |
+          Emergence of generative AI.
+      - question: |
+          What is cloud transformation about, in today’s environment?
+        answer: |
+          It is about business strategy and IT is the business in today’s environment.
+      - question: |
+          Why should enterprises care for cloud transformation in today’s environment?
+        answer: |
+          Because it it a competitive advantage.
+  - context: |
+      Using hybrid-by-design approach, organizations can rethink their technology estate, so it not only best supports gen AI, but also their businesses moving forward.
+    questions_and_answers:
+      - question: |
+          What should be ROI for business use cases of Gen AI?
+        answer: |
+          Higher than 10% ROI.
+      - question: |
+          What did enterprises achieve when they converted new technology for better business performance, historically?
+        answer: |
+          Delivery of value *only* in pockets.
+      - question: |
+          Where did enterprises ended up when they chased “Next Big Thing” in technology, historically?
+        answer: |
+          A trail of sluggish implementations and mountains of technical debt.
+  - context: |
+      Using hybrid-by-design approach, organizations can rethink their technology estate, so it not only best supports gen AI, but also their businesses moving forward.
+    questions_and_answers:
+      - question: What is critically needed for Gen AI scaling?
+        answer: |
+          Hybrid cloud technology foundation.
+      - question: |
+          What emerging technology is forcing organizations to assess their technical foundations?
+        answer: |
+          Generative AI.
+      - question: |
+          When can Gen AI unlock transformative value for an enterprise?
+        answer: |
+          Only when it is integrated in a well-designed hybrid cloud environment.
+  - context: |
+      Organizations that apply hybrid-by-design principles to IT programs can generate over three times higher ROI over five years. IBM experienced a 90% average reduction in its application total cost of ownership with hybrid-by-design.
+    questions_and_answers:
+      - question: What percentage of executives say ROI improvements on tech investments by at least 25% is a critical business objective?
+        answer: |
+          72%.
+      - question: |
+          What percentage of its tech budget an average organization spends on efforts to produce its desired business outcomes?
+        answer: |
+          23%.
+      - question: |
+          What drives anemic ROI in enterprises?
+        answer: |
+          Anemic tech portfolios.
+  - context: |
+      Hybrid-by-design tech architectures deliberately ensure systems work together seamlessly and can scale for growth.
+    questions_and_answers:
+      - question: |
+          What percentage of business leaders say generative AI is more reality than hype?
+        answer: |
+          62%.
+      - question: |
+          What is emerging as a strategic cornerstone for CEOs seeking a sustained competitive edge?
+        answer: |
+          Technology architecture.
+      - question: |
+          By what percentage did generative AI boost overall AI ROI for enterprises?
+        answer: |
+          From 13% in 2022 to 31% today.
+document_outline: |
+  Teach the model concepts of paper - The Great Tech Reset - How hybrid-by-design creates business value.
+document:
+  repo: https://github.com/pvrbharg/instructlab_knowledge.git
+  commit: db63e1fc845dc8797705c60fa5ea4e9d568e8713
+  patterns:
+    - the-great-tech-reset.pdf    
