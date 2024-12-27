@@ -425,6 +425,6 @@ document_outline: |
   Teach the model concepts of paper - The Great Tech Reset - How hybrid-by-design creates business value.
 document:
   repo: https://github.com/pvrbharg/instructlab_knowledge.git
-  commit: 04954ea97deb5305987c8cbdeadaa56b6bb7e0b5
+  commit: db63e1fc845dc8797705c60fa5ea4e9d568e8713
   patterns:
-    - the-great-tech-reset.md
+    - the-great-tech-reset.pdf
