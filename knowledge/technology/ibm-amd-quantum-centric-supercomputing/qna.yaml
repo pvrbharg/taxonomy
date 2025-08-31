@@ -91,7 +91,7 @@ seed_examples:
           simulate behavior of atoms & molecules, classical supercomputers with
           AI could handle massive data analysis
 document:
-  repo: https://github.com/ibm-amd-quantum-centric-supercomputing
+  repo: https://github.com/pvrbharg/ibm-amd-quantum-centric-supercomputing.git
   commit: 41da64eedcc4ba4216d17bd2615889c805b95a32
   patterns:
     - ibm-amd-quantum-centric-supercomputing.md
