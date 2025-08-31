@@ -92,6 +92,6 @@ seed_examples:
           AI could handle massive data analysis
 document:
   repo: https://github.com/ibm-amd-quantum-centric-supercomputing
-  commit: 2f4badfee46a50edffc1be11a540ba307b8d6cb9
+  commit: 41da64eedcc4ba4216d17bd2615889c805b95a32
   patterns:
     - ibm-amd-quantum-centric-supercomputing.md
