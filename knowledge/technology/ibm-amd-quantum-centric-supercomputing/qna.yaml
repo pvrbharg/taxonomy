@@ -94,4 +94,4 @@ document:
   repo: https://github.com/ibm-amd-quantum-centric-supercomputing
   commit: 2f4badfee46a50edffc1be11a540ba307b8d6cb9
   patterns:
-    - ibm-amd-quantum-centric-supercomputing.md 
+    - ibm-amd-quantum-centric-supercomputing.md
